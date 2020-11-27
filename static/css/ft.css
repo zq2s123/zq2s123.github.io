@@ -1,0 +1,27 @@
+
+#footer{ width:950px;clear:both; margin:0 auto;margin-top:10px;}
+.weblink span{ margin-left:-60px;}
+.weblink{ padding:0 0 8px 64px}
+.weblink a{ padding:0 2px}
+.footbar {border-top:2px solid #1583ca;clear:both;padding-top:8px;text-align:center;width:950px;margin:0 auto;font-size:12px;color:#000000;background:url(../image/footbg.png) repeat-x left -1px}
+.footbar p {margin:0px;padding:2px 0; clear:both}
+.footbar p a {color:#444;text-decoration:none;padding:0 2px;}
+.footbar p a:hover {color:#F60}
+#web_wj{ width:950px; height:66px; margin:0 auto; list-style:none; padding:0px; text-align:center}
+#web_wj img{ border:0px;}
+#web_wj ul{}
+#web_wj ul li{ float:left;list-style:none; margin:0px; padding:0px;width:950px;text-align:center }
+.ft_a{ width:360px;}
+.ftt_b{ width:105px; text-align:center}
+.ftt_c{ width:120px; text-align:right}
+.footbar2 {border-top:3px solid #357fc5;clear:both;padding-top:8px;text-align:center;margin:0 auto;font-size:12px;color:#333; width:99%}
+.footbar2 p {margin:0px auto;padding:2px 0; clear:both; width:960px;}
+.footbar2 p a {color:#666;text-decoration:none;padding:0 2px;}
+.footbar2 p a:hover {color: #c03}
+.copy{ font-family:Arial, Helvetica, sans-serif}
+.rmfl_title h1{ float:left; height:29px;font-size:14px; font-weight:bold; padding-left:20px; margin-right:4px; color:#da4901}
+.rmfl_title{ height:29px;  background: url(../image/rmfl.gif);line-height:29px;}
+.meb_show0{ padding:4px 0 0 10px; clear:both; height:70px}
+.meb_1{ background:url(../image/rmfl.gif) no-repeat 0 4px; padding-left:28px; line-height:24px}
+.meb_2{ background:url(../image/rmfl.gif) no-repeat 0 -20px; padding-left:28px; line-height:24px }
+

@@ -1,0 +1,15 @@
+
+
+
+body {
+}
+/*head begin*/
+
+.m_hd{}
+.m_logo,.m_logo a{width:230px;height:90px;float:left}
+.m_logo a{display:block;background:url(../image/login_logo.png) no-repeat left top;text-indent:-20000px}
+.m_additional{width:500px;float:right;text-align:right;margin-top:30px}
+.m_additional p{color:#555}
+.m_additional p span{margin-right:10px}
+.m_additional p em{color:#f60;font-weight:bold}
+/*head end*/

@@ -1,0 +1,224 @@
+html,body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,div,dl,dt,dd,select,input{margin:0;padding:0;border:0;font-family:" "; }
+table,tr,td,th{margin:0;padding:0;font-family:" ";}
+textarea,td,div,input{}
+ul,ol,li{list-style:none; }
+body{ font-size:12px;color:#2b2b2b; background:#fff; line-height:20px;font-family: "Arial" }
+
+.wp00{width:1000px;margin-left: auto;margin-right: auto;}
+.nav{ background:#f9f9f9; width:99.9%; height:22px;border:1px solid #eeeeee;font-size:12px;font-family: "Arial";}
+
+.nav a:hover {color: #ff0000;}
+	
+.wrape{background-color:#fff; width:1000px;margin-left: auto;margin-right: auto;}
+.navbox{width:1100px; height:30px; ;margin-left: auto;margin-right: auto;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.center{text-align:center;}
+.more{width:40px; height:20px; position:absolute; line-height:20px; right:0px; top:5px;  font-weight:normal; color:#222;}
+.more a{ color:#222;}
+.on {
+	DISPLAY: block
+}
+.off {
+	DISPLAY: none
+}
+
+
+/**?10**/
+.sh10{height:10px;background:#fff;overflow:hidden;font-size:0;}
+/**??10**/
+.mar10{margin-right:10px;}
+/**?10**/
+.mal10{margin-left:10px;}
+/**??10**/
+.mat10{margin-top:10px;}
+/**¡À?10**/
+.mab10{margin-bottom:10px;}
+/****/
+.none { display: none;}
+/**?**/
+.block {display: block;}
+/**?**/
+.nonebor{border:0;}
+/****/
+.clear{clear:both;font-size:0;line-height:0;height:0;}
+/****/
+a{outline: none;text-decoration: none; color:#333;}
+a:hover{text-decoration: none;color:#ce1b1b;}
+
+/**?**/
+/*?*/
+.txt_888{color:#888888;}
+.txt_888 a{color:#888;}
+
+.txt_333{color:#333333;}
+.txt_333 a{color:#333333;}
+
+.txt_000{color:#000;}
+.txt_000 a{color:#000;}
+
+/*?*/
+.txt_blue{color:#1568ba;}
+.txt_blue a{color:#1568ba;}
+
+/*?*/
+.txt_red{color:#b51a1a;}
+.txt_red a{color:#b51a1a;}
+
+/*?*/
+.txt_org{color:#e16a2b;}
+.txt_org a{color:#e16a2b;}
+
+
+
+
+/*?*/
+.txt_white{color:#fff;}
+.txt_white a{color:#fff;}
+
+
+/**??**/
+.head{width:980px; height:84px;}
+.hef{width:220px; padding-left:20px; padding-top:6px; height:74px; float:left;  }
+.hem{width:470px; height:80px; float:left;}
+.hem1{width:444px; height:30px;  border:#d86127 2px solid; background: url(http://www.ynshangji.com/images/newimages/726.gif) repeat-x; }
+.hem1a{width:340px; height:30px;  float:left; overflow:hidden;}
+.input1{width:340px; height:30px; border:none; line-height:30px; padding-left:4px;}
+.hem1b{width:104px; height:30px; float:left; }
+.input2{width:104px; height:30px; background: url(http://www.ynshangji.com/images/newimages/726s.gif) no-repeat; border:none; cursor:pointer; }
+.hem2{ height:20px; overflow:hidden; padding-top:10px; }
+.her{width:238px; height:55px; margin-top:10px; float:left; border:#cacaca 1px solid;  display:inline; } 
+
+
+/*search top*/
+.herr{width:613px; height:80px; float:right; padding-right:35px;}
+.herr1{width: auto; height:28px; margin-top:5px; border:#e0e2e1 1px solid; background:#f5f9fa; padding:5px;}
+.herr1a{width:485px; height:26px;  float:left; border:#b0b9b6 1px solid; background:#fff; overflow:hidden;}
+.input3{width:485px; height:26px; border:none; line-height:26px; padding-left:4px;}
+.herr1b{width:106px; height:28px; float:left; padding-left:5px;}
+.input4{width:106px; height:28px; background:url(http://www.ynshangji.com/images/newimages/mebg.gif) -843px -220px no-repeat; border:none; font-size:14px; color:#FFF; font-weight:bold;}
+
+
+.menu{width:980px;    height:36px; }
+.f1{width:4px; height:36px; float:left; background:url(http://www.ynshangji.com/images/newimages/mebg.gif) -140px 0px  no-repeat;}
+.f3{width:4px; height:36px; float:left; background:url(http://www.ynshangji.com/images/newimages/mebg.gif) -160px 0px no-repeat;}
+.f2{width:930px; height:33px; float:left; background:url(http://www.ynshangji.com/images/newimages/me_repeat.gif) 0px 0px repeat-x; padding-top:3px; padding-left:12px;}
+.menua{float:left; display:block; width:79px; height:33px; text-align:center; line-height:32px; font-size:14px; font-weight:bold;}
+.menua a:hover{color:#fff;}
+.menuhover{float:left; display:block; height:34px;  line-height:34px; width:79px; text-align:center; color:#1c1c1c; font-weight:bold; font-size:14px;}
+.line{ background:url(http://www.ynshangji.com/images/newimages/mebg.gif) no-repeat -107px 10px;   height:32px;  width:8px;  float:left;}
+.menu_but{width:500px; float:right; padding-right:10px; padding-top:5px;  text-align:right;}
+.menu_but a{ margin-left:10px;}
+
+.pos{background:#fefaf7 ; width:920px; height:20px; line-height:20px; padding:8px 15px ;}
+
+/*foot*/
+.foot{
+	border-top:1px dashed #CCCCCC;
+	width:930px;
+	margin-top:10px;
+	padding:10px;
+	
+}
+.cnf_nav {
+    font-size: 13px;
+    line-height: 25px;
+    padding: 0;
+    text-align: center;
+}
+.cnf_nav a {
+    padding: 0 10px;
+}
+.foot p {
+    font-size: 13px;
+    line-height: 22px;
+    padding: 6px 20px;
+}
+.beian {
+    margin: 8px auto;
+    width: 456px;
+}
+
+.link{ min-height:83px; width:928px; padding-left:10px; padding-bottom:5px; padding-right:10px; border:#dedede 1px solid; background: url(http://www.ynshangji.com/images/newimages/link.gif) repeat-x; }
+
+.link a {margin-right:5px; margin-left:5px; line-height:20px; }
+
+
+.hem2hover{background:url(http://www.ynshangji.com/images/newimages/726hover.gif) no-repeat; width:45px; padding-top:2px; height:18px; line-height:18px; text-align:center; color:#fff; float:left; margin-right:10px;}
+.hem2link{width:45px; padding-top:2px; height:18px; line-height:18px; text-align:center; color:#fff; float:left; margin-right:10px; color:#333;}
+.hem2link a:hover{color:#f60; text-decoration:underline;}
+
+
+
+.head_0905{width:100%px; height:80px; padding-top:10px; }
+.head_0905_left{ height:65px; margin-left:10px; margin-bottom:5px; float:left; width:280px; display:inline;  }
+.logo_0905{background:url(../image/logo0.gif) no-repeat 0px -56px; width:320px; height:80px;   float:left; cursor:pointer;}
+.logo_0905a{width:27px; height:67px; padding-top:35px; float:left; font-size:20px; font-family:"Microsoft YaHei"; color:#595858; }
+.head_0905_rgt{width:574px; height:70px; padding-left:65px; font-size:14px; padding-top:5px; float:left; background:url(../image/logo0.gif) no-repeat 65px 29px;}
+.head_0905_rgt1{ width:574px; height:25px; font-size:14px;}
+.head_0905_rgt1_hover{ background:url(../image/logo0.gif) no-repeat -354px -77px ; width:58px; height:22px; line-height:22px; padding-top:3px; float:left; text-align:center; font-weight:bold; color:#f54001; margin-right:10px; font-size:14px;}
+.head_0905_rgt1_link{width:58px; height:22px; line-height:22px; padding-top:3px; float:left; text-align:center; font-weight:bold;  margin-right:10px;}
+.head_0905_rgt1_link a:hover{color:#f60; text-decoration:underline;}
+.head_0905_rgt2{width:566px; height:32px; padding:3px 4px 4px 4px;}
+.head_0905_rgt2a{width:426px; padding:5px 5px 5px 4px; float:left; height:22px;   }
+.head_0905_rgt2a input{width:426px; height:22px; line-height:22px; border:none;}
+.head_0905_rgt2b{  width:130px; height:32px; float:left; }
+.head_0905_rgt2b input{background:url(../image/logo0.gif) no-repeat -437px -72px; width:130px; height:32px; cursor:pointer;}
+
+.menu_0905{width:980px; height:40px; }
+.f1_0905{width:6px; height:40px; float:left; background:url(../image/logo0.gif) -325px -56px  no-repeat;}
+.f3_0905{width:6px; height:40px; float:left; background:url(../image/logo0.gif) -336px -56px no-repeat;}
+.f2_0905{width:938px; height:45px; float:left; background:url(http://www.ynshangji.com/images/newimages/menu_0905_bg.gif) repeat-x; padding-top:3px;}
+.menua_0905{float:left; display:block; width:79px; height:30px; padding-top:4px; text-align:center; line-height:28px; font-size:14px; color:#fff; font-weight:bold; }
+.menua_0905 a{color:#fff;}
+.menu_0905_hover{float:left; display:block; height:30px; padding-top:4px; background:url(../image/logo0.gif) -488px -121px no-repeat; line-height:28px; width:79px; text-align:center; color:#343434; font-weight:bold; font-size:14px;}
+.line_0905{ background:url(http://www.ynshangji.com/images/newimages/bigbg.gif) no-repeat -107px 12px;   height:32px; margin:0px 5px;  width:8px;  float:left;}
+.menu_0905_but{width:500px; float:right; padding-right:3px; padding-top:6px; text-align:right;}
+.menu_0905_but a:hover{text-decoration:underline;}
+.menu_0905_but a{color:#ffffff;}
+.menu_0905_text{ height:24px; padding:6px 0px 0px 30px;}
+.menu_0905_text a{padding-right:10px; margin-right:10px; background:url(http://www.ynshangji.com/images/newimages/menu_t.gif) no-repeat right top; }
+
+
+
+
+h1,h2,h3,h4,h5,h6{ font-size:14px;}
+
+
+/*w1000*/
+.w1000{width:1190px;margin-left:auto;margin-right:auto;}
+.w1000 .w_pic{display:none;}
+.w1000 .m_zm{width:520px;}
+.w1000 .ad_p{width:1190px;overflow:hidden;}
+/*w1190*/
+
+.bw1000 .f-floating {width:30px;}
+.bw1000 .f-floor li{padding-left:0;text-align:center}
+.bw1000 .f-floor li span.a,
+.bw1000 .f-floor li span.b{display:none}
+.bw1000 .g-top{text-align:center}
+.bw1000 .g-top a {margin:0;background:none}
+.bw1000 .g-top a.a{display:none;}
+.bw1000 .g-top a.b{display:block;}
+.bw1000 .l-service,
+.bw1000 .l-message{position:fixed;z-index:100;right:0;width:30px;cursor:pointer}
+.bw1000 .l-service{bottom:120px;height:41px;}
+.bw1000 .l-message{bottom:57px;}
+.bw1000 .l-service a,
+.bw1000 .l-message a{display:block;height:41px;width:30px;}
+.bw1000 .l-service a{background:url(../image/bw-fm.gif) no-repeat right center}
+.bw1000 .l-message a{background:url(../image/bw-fs.gif) no-repeat right center}
+.bw1000 .l-service a:hover{background:url(../image/bw-fm-h.gif) no-repeat right center}
+.bw1000 .l-message a:hover{background:url(../image/bw-fs-h.gif) no-repeat right center}
+
+/*navv*/
+.navWrap{ background:#135DC9; width:100%; height:38px;}
+.navv{margin:0 auto;height:38px;position:relative;}
+.navv ul li{position:relative;float:left;height:38px;float:left;text-align:center;width:10%;}
+.navv ul li a{width:100%;color:#fff;height:38px;line-height:38px;display:inline-block;font-size:14px; font-weight:bold;}
+.navv ul li a:hover{font-weight:600;background:#6699FF; text-decoration:none; color:#fff;}
+.navv ul li.on a{font-size:14px;background:#336699;}
+.navv ul li.home{background:url(../image/navline.gif) no-repeat right center;}
+.navv ul li i{position:absolute;display:block;top:-3px;right:0;width:20px;height:12px;}
+.navv ul li i.t_hot{background:url(../image/t_hot.png) no-repeat;}
+.navv ul li i.t_new{background:url(../image/t_new.png) no-repeat;}

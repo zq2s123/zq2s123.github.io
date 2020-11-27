@@ -1,0 +1,935 @@
+
+
+
+.top {
+	font-size: 12px;
+	line-height: 150%;
+	word-break: break-all;
+	text-align: center;
+	height: 100%
+}
+.hack {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0
+}
+textarea {
+	overflow: auto
+}
+textarea, input {
+	padding: 1px 2px
+}
+.cfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+.cfix {
+	display: inline-block
+}
+* html .cfix {
+	height: 1%
+}
+.cfix {
+	display: block
+}
+fieldset, img {
+	border: 0
+}
+:focus {
+	outline: 0
+}
+address, caption, cite, code, dfn, em, th, var, optgroup {
+	font-style: normal;
+	font-weight: normal
+}
+
+abbr, acronym {
+	border: 0;
+	font-variant: normal
+}
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit
+}
+code, kbd, samp, tt {
+	font-size: 100%
+}
+input, button, textarea, select {
+*font-size:100%;
+	vertical-align: middle
+}
+
+ol, ul, li {
+	list-style: none
+}
+caption, th {
+	text-align: left
+}
+:link, :visited, ins {
+	text-decoration: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+a, a:link {
+	color: #2244DD;
+	text-decoration: none
+}
+a:hover {
+	color: #ff0000;
+	text-decoration: underline
+}
+a.yellow {
+	color: #FF6600
+}
+a.red {
+	clear: #ff0000
+}
+p#back-to-top {
+	position: fixed;
+	bottom: 60px;
+	right: 31px
+}
+p#back-to-top a {
+	text-align: center;
+	text-decoration: none;
+	color: #d1d1d1;
+	display: block;
+	width: 56px
+}
+p#back-to-top a:hover {
+	color: #979797
+}
+p#back-to-top a span {
+	background: #d1d1d1 url(http://www.ynshangji.com/images/global/upgo.gif) no-repeat 0 0;
+	display: block;
+	height: 56px;
+	width: 56px;
+	margin-bottom: 5px
+}
+#back-to-top a:hover span {
+	background: #999999 url(http://www.ynshangji.com/images/global/upgo.gif) no-repeat 0 -56px
+}
+
+
+
+
+.s_ulA {
+	height: 24px;
+	text-align: left
+}
+.s_ulA ul {
+	/*position: absolute*/
+}
+.s_ulA ul li {
+	float: left;
+	list-style: none
+}
+.s_ulA ul li a {
+	float: left;
+	line-height: 24px;
+	padding: 2px 13px;
+	color: #333;
+	font-size: 12px
+}
+.s_ulA ul li a:hover {
+	text-decoration: none
+}
+.s_ulA ul li.current a {
+	color: #fff;
+	font-weight: 700;
+	background-position: right 0;
+	padding: 2px 13px;
+*padding-top:0;
+*padding-bottom:0
+}
+
+.s_enter {
+	padding: 27px;
+	width: 595px;
+	float: left
+}
+.s_input {
+	border: 0;
+	background-color: #fff;
+	float: left;
+	font-size: 14px;
+	width: 497px;
+	_width: 495px;
+	padding: 8px 6px
+}
+.s_btn {
+	width: 81px;
+	height:39px;
+	height:39px\9;
+	
+	line-height: 38px;
+	border: 0;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	overflow: hidden;
+*margin-top:0;
+	font-family: microsoft yahei;
+	text-align: center;
+	float: left
+}
+
+.blue .s_input {
+	border: 2px #3592e2 solid
+}
+.blue .submit {
+	background-color: #3592e2
+}
+.blue .submit:hover {
+	background-color: #2283d4
+}
+.blue .s_boxA h2 {
+	border-left: 2px solid #3592e2
+}
+.blue .s_ulA ul li.current, .blue .s_ulA ul li.current a {
+	background-color: #3592e2
+}
+.blue .s_btn {
+	background-color: #3592e2
+}
+.blue .s_btn:hover {
+	background-color: #2283d4
+}
+.green .s_input {
+	border: 2px #42b712 solid
+}
+.green .submit {
+	background-color: #42b712
+}
+.green .submit:hover {
+	background-color: #47c510
+}
+.green .s_boxA h2 {
+	border-left: 2px solid #42b712
+}
+.green .s_ulA ul li.current, .green .s_ulA ul li.current a {
+	background-color: #42b712
+}
+.green .s_btn {
+	background-color: #42b712
+}
+.green .s_btn:hover {
+	background-color: #47c510
+}
+.orange .s_input {
+	border: 2px #f78015 solid
+}
+.orange .submit {
+	background-color: #f78015
+}
+.orange .submit:hover {
+	background-color: #eb6d13
+}
+.orange .s_boxA h2 {
+	border-left: 2px solid #f78015
+}
+.orange .s_ulA ul li.current, .orange .s_ulA ul li.current a {
+	background-color: #f78015
+}
+.orange .s_btn {
+	background-color: #f78015
+}
+.orange .s_btn:hover {
+	background-color: #eb6d13
+}
+.red .s_input {
+	border: 2px #c40000 solid
+}
+.red .submit {
+	background-color: #c40000
+}
+.red .submit:hover {
+	background-color: #ac0404
+}
+.red .s_boxA h2 {
+	border-left: 2px solid #c40000
+}
+.red .s_ulA ul li.current, .red .s_ulA ul li.current a {
+	background-color: #c40000
+}
+.red .s_btn {
+	background-color: #c40000
+}
+.red .s_btn:hover {
+	background-color: #ac0404
+}
+
+
+
+
+
+
+img.wximg{vertical-align: middle;}
+.weixinShow { position: fixed; left: 0; top: 0; width: 100%; height: 100%; text-align: center; z-index: 100; display: none; _position: absolute; _top: expression(document.documentElement.scrollTop + Math.round(document.documentElement.offsetHeight / 2) + "px");
+}
+.weixinShow span { vertical-align: middle; display: inline-block; height: 100%; }
+.weixinShow .btn_close { left: 50%; top: 50%; margin-left: 168px; margin-top: -215px; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); }
+
+
+.btn_close { background: url(http://www.ynshangji.com/images/borComBg.png) no-repeat; background-position: -253px -153px; position: absolute; width: 48px; height: 48px; right: 0; top: 0; -webkit-transform-origin: top right; -webkit-transform: rotate(90deg);/*-webkit-transition:0.6s all ease;*/ -moz-transform-origin: top right; -moz-transform: rotate(90deg);/*-moz-transition:0.6s all ease;*/ -ms-transform-origin: top right; -ms-transform: rotate(90deg);/*-ms-transition:0.6s all ease;*/ -o-transform-origin: top right; -o-transform: rotate(90deg);/*-o-transition:0.6s all ease;*/ transform-origin: top right; transform: rotate(90deg);/*transition:0.6s all ease;*/ z-index: 2; cursor: pointer; }
+.btn_close:hover { background: url(http://www.ynshangji.com/images/borComBg.png) no-repeat; background-position: -301px -153px; }
+
+
+
+
+
+
+body.blue .subsearch ul li a:hover {
+	background-color: #ECF5FA;
+	color: #4389C7
+}
+body.green .subsearch ul li a:hover {
+	background-color: #E8F2CF;
+	color: #41B044
+}
+body.orange .subsearch ul li a:hover {
+	background-color: #FFF5EF;
+	color: #FF6600
+}
+body.red .subsearch ul li a:hover {
+	background-color: #FFF5EF;
+	color: #C40000
+}
+.body1000 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px
+}
+.floater {
+	border-left-width: 0px;
+	border-right-width: 0px;
+	top: 0px;
+	position: fixed;
+	z-index: 199;
+	opacity: 1
+}
+.bartop {
+    font-size: 12px;
+	color: #585858;
+	background-color: #f9f9f9;
+	border-bottom: 1px #d4d4d4 solid;
+	height: 28px;
+	line-height: 28px;
+	width: 100%
+}
+.bartop .barleft a {
+	color: #585858
+}
+.bartop .barright a {
+	color: #585858
+}
+.bartop .barleft a:hover {
+	color: #ff0000;
+	text-decoration: underline
+}
+.bartop .barcenter {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px
+}
+.bartop .barleft {
+	width: 590px;
+	text-align: left;
+	float: left
+}
+.bartop .barright {
+	width: 400px;
+	text-align: right;
+	float: right;
+	overflow: hidden;
+	height: 28px;
+	overflow: hidden
+}
+
+.bartop .barright a:hover {
+	text-decoration: none;
+}
+.bartop .barleft .barcity {
+	margin-right: 10px
+}
+.bartop .barleft .barcity span {
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold
+}
+.bartop .barleft ul {
+	float: left
+}
+.bartop .barright ul {
+	float: right
+}
+
+
+.bartop .barleft ul.barcang {
+	background: url(http://www.ynshangji.com/images/global/baricon.gif) 0 -54px no-repeat;
+	padding-left: 15px
+}
+.bartop .barleft ul.barwap {
+	background: url(http://www.ynshangji.com/images/global/baricon.gif) 0 -36px no-repeat;
+	padding-left: 15px
+}
+.bartop .barleft ul.barpost {
+	background: url(http://www.ynshangji.com/images/global/baricon.gif) 0 -18px no-repeat;
+	padding-left: 15px
+}
+.bartop .barleft ul.bardel {
+	background: url(http://www.ynshangji.com/images/global/baricon.gif) 0 0 no-repeat;
+	padding-left: 15px
+}
+.bartop ul {
+	margin: 6px 8px 0 8px;
+	line-height: 18px;
+	display: inline;
+	position: relative;
+	z-index: 99999
+}
+.bartop div.choosetheme {
+	float: left
+}
+.bartop div#themelist {
+	float: right
+}
+.bartop ul li {
+	float: left;
+	width: 15px;
+	height: 18px;
+	display: block;
+	overflow: hidden
+}
+.bartop ul.line {
+	width: 2px;
+	height: 10px;
+	overflow: hidden;
+	background: #fff;
+	margin: 9px 0 0 0
+}
+.bartop ul.line u {
+	display: block;
+	width: 1px;
+	height: 18px;
+	overflow: hidden;
+	background: #d4d4d4
+}
+.cateintro {
+	background-color: #ffffff;
+	width: 998px;
+	overflow: auto;
+	line-height: 24px;
+	border-left: 1px #d4d4d4 solid;
+	border-right: 1px #d4d4d4 solid;
+	border-top: 1px #d4d4d4 solid;
+	text-align: left;
+	color: #808080
+}
+.cateintro .introleft {
+	width: 125px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 15px;
+	margin-bottom: 16px
+}
+.cateintro .introflink, .cateintro .introright {
+	width: 820px;
+	_width: 810px;
+	float: right;
+	margin-top: 18px;
+	margin-right: 10px;
+	margin-bottom: 16px
+}
+.cateintro .introflink a {
+	margin-right: 10px;
+	color: #808080;
+	white-space: nowrap;
+	word-break: keep-all
+}
+.cateintro .introright a {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 136px;
+	height: 26px;
+	color: #808080
+}
+.cateintro .introflink a:hover, .cateintro .introright a:hover {
+	color: #ff0000
+}
+.footsearch {
+	background-color: #fcfcfc;
+	border: 1px #d4d4d4 solid;
+	height: 76px;
+	width: 998px
+}
+.footsearch ul {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px
+}
+.shadow {
+	background: url(http://www.ynshangji.com/images/global/daohangbg.gif) 0 -240px repeat-x;
+	width: 100%;
+	height: 2px
+}
+.footsearch_input {
+	border: 1px #d4d4d4 solid;
+	float: left;
+	width: 410px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #c8c8c8;
+	padding-left: 10px;
+	padding-right: 10px
+}
+.footabout {
+	color: #888;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px
+}
+.footabout a {
+	color: #000;
+	padding-right: 15px;
+	margin-right: 15px;
+	border-right: 1px #ccc solid
+}
+.footabout a.backnone {
+	border-right: none
+}
+.footabout span {
+	margin-left: 15px;
+	margin-right: 15px
+}
+.footcopyright {
+	margin-top: 10px;
+	color: #888;
+	padding-bottom: 10px
+}
+.footcopyright a {
+	color: #888;
+	margin-left: 10px
+}
+.debuginfo {
+	margin-bottom: 10px
+}
+.debuginfo i {
+	font-style: normal
+}
+.debuginfo em {
+	color: #FF9D25;
+	font-weight: bold;
+	font-style: normal
+}
+.location {
+	clear: both;
+	text-align: left;
+	margin: 0;
+	background: url(http://www.ynshangji.com/images/global/location.gif) no-repeat 0 2px;
+	padding-left: 23px
+}
+.block {
+display:
+}
+.none {
+	display: none
+}
+.pull-right {
+	float: right
+}
+.pull-left {
+	float: left
+}
+.required, .highlight {
+	color: #ec5524!important
+}
+sup.xin {
+	POSITION: absolute;
+	MARGIN-TOP: -18px;
+	WIDTH: 19px;
+	BACKGROUND: url(http://www.ynshangji.com/images/xin.gif) no-repeat 0px 0px;
+	HEIGHT: 23px;
+	MARGIN-LEFT: 1px;
+	clear: both
+}
+sup.qiang {
+	POSITION: absolute;
+	MARGIN-TOP: -18px;
+	WIDTH: 19px;
+	BACKGROUND: url(http://www.ynshangji.com/images/qiang.gif) no-repeat 0px 0px;
+	HEIGHT: 23px;
+	MARGIN-LEFT: 1px;
+	clear: both
+}
+sup.re {
+	POSITION: absolute;
+	MARGIN-TOP: -18px;
+	WIDTH: 19px;
+	BACKGROUND: url(http://www.ynshangji.com/images/re.gif) no-repeat 0px 0px;
+	HEIGHT: 23px;
+	MARGIN-LEFT: 1px;
+	clear: both
+}
+sup, sub {
+	font-size: 100%;
+	vertical-align: baseline
+}
+.commentsubmit {
+	border: 0;
+	background: url(http://www.ynshangji.com/images/global/commentsubmit.gif) no-repeat;
+	height: 31px;
+	width: 86px;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 31px;
+	text-align: center;
+	cursor: pointer
+}
+.commenttextarea {
+	border: 1px #c8c8c8 solid;
+	padding: 5px
+}
+.commenttxt {
+	border: 1px #c8c8c8 solid;
+	width: 40px;
+	padding: 5px
+}
+.subsearch {
+	width: 998px;
+	height: auto;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px #E3E7E9 solid;
+	border-right: 1px #E3E7E9 solid;
+	border-bottom: 1px #E3E7E9 solid;
+	background: #ffffff top center repeat-x;
+	padding-bottom: 10px;
+	overflow: auto
+}
+.subsearch ul {
+	margin-top: 10px;
+	padding-left: 13px
+}
+.subsearch ul li {
+	width: 97px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+	font-size: 14px;
+	border-right: 1px #efefef solid;
+	text-align: center;
+	padding: 0 5px
+}
+.subsearch ul li.n9, .subsearch ul li.n27, .subsearch ul li.n18 {
+	border-right: none!important
+}
+.subsearch ul li a {
+	width: 95px;
+	color: #222;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 28px;
+	line-height: 28px;
+	border: 1px #fff solid
+}
+.subsearch ul li a:hover {
+	display: block;
+	text-decoration: none;
+	border: 1px #ffffff solid
+}
+
+.topbanner {
+	width: 1000px;
+	overflow: hidden;
+	text-align: center;
+	height: auto
+}
+.topbannerad {
+	margin-top: 5px
+}
+.footerbanner {
+	width: 1000px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto 3px auto;
+	clear: both
+}
+.footerbannerad {
+	margin-bottom: 5px
+}
+.topbanner img {
+}
+.header {
+	text-align: left;
+	width: 1000px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto
+}
+.headerbanner {
+	display: block;
+	float: left;
+	margin: 0 3px 0 0
+}
+.headerbanner a {
+	margin-top: 7px;
+	display: block
+}
+.headerbanner a img {
+}
+.intercatad {
+	margin-bottom: 10px
+}
+.interlistdiv {
+	color: #585858;
+	text-align: left
+}
+.interlistdiv .hover {
+	padding: 10px;
+	line-height: 22px;
+	border-bottom: 1px solid #dedede
+}
+.interlistdiv .hovercolor {
+	background-color: #F8F8F9;
+	background-image: url(http://www.ynshangji.com/images/category/advfontbg.gif);
+	background-position: top right;
+	background-repeat: no-repeat
+}
+.interlistdiv a {
+	font-size: 14px;
+	text-align: left
+}
+.intercatdiv {
+	/*width: 160px;*/
+	float: right;
+	margin-left: 10px;
+	background-color: #ffffff;
+	height: auto;
+	overflow: hidden
+}
+.intercatdiv2 {
+	/*width: 160px;*/
+	margin-left: 2px;
+	background-color: #ffffff;
+	height: auto;
+	overflow: hidden
+}
+.infoaddiv {
+	/*width: 680px;*/
+	background-color: #ffffff;
+*height:100%;
+	_height: auto;
+	overflow: auto;
+_overflow:;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center
+}
+.infoad {
+	/*margin: 0 5px 10px 0*/
+}
+.indexcatad {
+	width: 1000px;
+	margin: 5px auto 0 auto;
+	overflow: hidden;
+*margin-bottom:5px
+}
+.ni-flist1 .indexcatad {
+	width: 200px;
+}
+.ni-flist2 .indexcatad {
+	width: 220px;
+}
+.ni-flist3 .indexcatad {
+	width: 275px;
+}
+.full .ni-flist1 .indexcatad, .full .ni-flist2 .indexcatad {
+	width: 280px!important;
+}
+.full .ni-flist3 .indexcatad {
+	width: 275px!important;
+}
+#ni-flist .indexcatad {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.full .indexcatad {
+	width: 1200px!important;
+}
+.full .body1000 {
+	width: 1200px!important
+}
+.full .logosearchtel {
+	width: 1200px!important
+}
+.full .barcenter {
+	width: 1200px!important
+}
+.full .footsearch {
+	width: 1198px!important
+}
+.full .footsearch ul {
+	width: 740px!important
+}
+.full .footsearch .footsearch_input {
+	width: 450px!important
+}
+.full .logosearchtel .websearch {
+	width: 660px!important
+}
+.full .websearch .sch_t_frm {
+	width: 506px!important
+}
+.full .websearch .topsearchinput {
+	width: 355px!important
+}
+.full .subsearchbottomline {
+	width: 1200px!important
+}
+.full .topbanner {
+	width: 1200px!important
+}
+.full .footerbanner {
+	width: 1200px!important
+}
+.full .header {
+	width: 1200px!important
+}
+.full .indexcatad {
+	width: 1200px!important
+}
+.full .subsearch ul li {
+	width: 119px!important
+}
+.full .subsearch ul li a {
+	width: 117px!important
+}
+.full .cateintro {
+	width: 1198px!important
+}
+.full .cateintro .introflink, .full .cateintro .introright {
+	width: 1020px;
+	_width: 1010px
+}
+.footsearch_submit {
+	color: #000;
+	font-size: 16px;
+	cursor: pointer;
+	height: 32px;
+	background-color: #F2F0F0;
+	float: left;
+	width: 120px;
+	margin-left: 10px;
+	font-family: microsoft yahei;
+	border: none
+}
+.footsearch_post {
+	font-family: microsoft yahei;
+	background: #F78015;
+	border-left: none;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+	height: 32px;
+	margin-left: 10px;
+	float: left;
+	width: 120px;
+	border: none
+}
+.footsearch_submit:hover {
+	background-color: #C8C6C7
+}
+.footsearch_post:hover {
+	background-color: #EB6D13
+}
+
+
+
+.logosearchtel{margin-left:auto;margin-right:auto;width:1000px;height:auto;overflow:hidden;margin-top:18px}
+.logosearchtel .weblogo{width:auto;display:block;float:left;text-align:left;vertical-align:middle;height:50px}
+.logosearchtel .weblogo img{margin-top:20px;margin-left:40px}
+.logosearchtel .websearch{width:510px;display:block;float:right;margin-top:8px}
+.logosearchtel .postedit{float:right;display:block;text-align:right;margin-top:36px;}
+.logosearchtel .postedit a{background-image:url(http://www.ynshangji.com/images/global/poste.gif);background-repeat:no-repeat;font-family:"microsoft yahei";background-position:20px center;font-size:16px;height:36px;display:block;float:left;margin-left:5px;line-height:36px;text-align:center;text-decoration:none}
+.logosearchtel .postedit a.post{color:#fff;background-color:#f78015;padding-left:30px;width:121px}
+.logosearchtel .postedit a.post:hover{background-color:#eb6d13}
+.logosearchtel .postedit a.edit{color:#848484;background-position:0 -66px;width:126px}
+.logosearchtel .postedit a.edit:hover{background-position:0 -99px}
+.logosearchtel .websearch{height:auto;display:block;overflow:hidden;text-align:left}
+.websearch .sch_t_frm{margin:15px 0 0 0;overflow:hidden;width:416px;height:36px}
+.websearch .sch_ct{float:left;display:block;height:55px;overflow:hidden;width:auto}
+.websearch .topsearchinput{height:22px;line-height:22px;padding:5px 10px;_padding-right:0;width:255px;border-right:0;border-left:none;float:left;display:block;color:#333;font-size:14px}
+.sch_t_frm .select{background:#fff url(http://www.ynshangji.com/images/global/top_search_cate_bg.gif) no-repeat right 2px}
+.websearch .sch_t_frm .select{vertical-align:middle;width:55px;float:left;height:32px;color:#000;padding-left:2px}
+.websearch .sch_t_frm .select ul{margin-top:8px;font-size:12px;padding-right:-1px}
+.websearch div.selectbox-wrapper{position:absolute;background-color:#fff;border-top:0;text-align:left;margin-top:7px;*margin-top:5px;margin-right:0;margin-bottom:0;margin-left:-4px;line-height:26px}
+.websearch div.selectbox-wrapper ul li.current{background-color:#f1f1f1;width:49px;text-indent:3px}
+.websearch div.selectbox-wrapper ul li{padding:0 3px;cursor:pointer;width:49px;text-indent:3px;margin-top:0}
+.websearch .selectbox{display:block;width:55px;background:transparent!important;padding:0 0 0 4px;cursor:pointer;border:0 none;color:#000;text-align:left}
+.websearch .btn-normal{width:70px;text-align:center;height:36px;display:block;float:left;font-size:18px;font-family:"microsoft yahei";color:#fff;text-decoration:none;cursor:pointer;border:0}
+.daohang{width:998px;margin-left:auto;margin-right:auto;overflow:hidden;text-align:center;height:40px;background-repeat:repeat-x;margin-top:0px;background:#fafafa;border-left:1px #e9e9e9 solid;border-right:1px #e9e9e9 solid;border-top:1px #e9e9e9 solid}
+.daohang ul{margin-left:auto;margin-right:auto;text-align:left;background-repeat:no-repeat;height:40px;width:998px}
+.daohang li{float:left}
+.daohang a{font-size:16px;font-family:"microsoft yahei";line-height:40px;padding-left:16px;padding-right:16px;background-repeat:no-repeat;height:40px;display:block;float:left;*padding-right:15px;color:#000}
+.daohang a.current{font-weight:bold;text-decoration:none;background-repeat:no-repeat;text-align:center;color:#fff}
+.blue .daohang{border-bottom:2px #3592e2 solid}
+.blue .daohang a.current{background-color:#3592e2}
+.blue .sch_t_frm .select{border-top:2px solid #3592e2;border-bottom:2px solid #3592e2;border-left:2px solid #3592e2}
+.blue .selectbox-wrapper{border-left:2px solid #3592e2;border-right:2px solid #3592e2;border-bottom:2px solid #3592e2}
+.blue .topsearchinput{border-top:2px solid #3592e2;border-bottom:2px solid #3592e2}
+.blue .websearch .btn-normal{background-color:#3592e2}
+.blue .websearch .btn-normal:hover{background-color:#2283d4}
+.green .daohang{border-bottom:2px #42b712 solid}
+.green .daohang a.current{background-color:#42b712}
+.green .sch_t_frm .select{border-top:2px solid #42b712;border-bottom:2px solid #42b712;border-left:2px solid #42b712}
+.green .selectbox-wrapper{border-left:2px solid #42b712;border-right:2px solid #42b712;border-bottom:2px solid #42b712}
+.green .topsearchinput{border-top:2px solid #42b712;border-bottom:2px solid #42b712}
+.green .websearch .btn-normal{background-color:#42b712}
+.green .websearch .btn-normal:hover{background-color:#47c510}
+.orange .daohang{border-bottom:2px #f78015 solid}
+.orange .daohang a.current{background-color:#f78015}
+.orange .sch_t_frm .select{border-top:2px solid #f78015;border-bottom:2px solid #f78015;border-left:2px solid #f78015}
+.orange .selectbox-wrapper{border-left:2px solid #f78015;border-right:2px solid #f78015;border-bottom:2px solid #f78015}
+.orange .topsearchinput{border-top:2px solid #f78015;border-bottom:2px solid #f78015}
+.orange .websearch .btn-normal{background-color:#f78015}
+.orange .websearch .btn-normal:hover{background-color:#eb6d13}
+.red .daohang{border-bottom:2px #c40000 solid}
+.red .daohang a.current{background-color:#c40000}
+.red .sch_t_frm .select{border-top:2px solid #c40000;border-bottom:2px solid #c40000;border-left:2px solid #c40000}
+.red .selectbox-wrapper{border-left:2px solid #c40000;border-right:2px solid #c40000;border-bottom:2px solid #c40000}
+.red .topsearchinput{border-top:2px solid #c40000;border-bottom:2px solid #c40000}
+.red .websearch .btn-normal{background-color:#c40000}
+.red .websearch .btn-normal:hover{background-color:#ac0404}
+.full .daohang{width:1198px!important}
+.full .daohang ul{width:1198px!important}
+.full .subsearch{width:1198px!important}
+
+
+a:link {
+color:#555;
+text-decoration:none;
+}
+
+a:visited {
+color:#555; 
+text-decoration:none;
+}

@@ -1,0 +1,77 @@
+.m_loginwrp{width:950px;float:left;margin-top:30px}
+.m_lban{width:550px;float:left;margin-right:10px}
+.m_login{width:365px;float:right;background:url(../image/loginbg.png) no-repeat left top}
+.m_logincon{border:1px solid #ccc;border-top:none;border-bottom:none;padding-bottom:10px;width:363px;float:left}
+
+.line {
+	clear:both;
+	overflow:visible;
+	min-height:50px;
+	height:auto;
+	position:relative;
+	_height:50px
+}
+.info {
+	width:63px;
+	text-align:right;
+	height:28px;
+	line-height:28px;
+	overflow:hidden;font-size:14px;margin-right:14px;float:left
+}
+.inp input.iText,.inp input.iText1 {
+	line-height:16px;
+	padding:4px 0 2px 0;
+	width:198px;
+	font-size:12px;
+	height:20px;
+	padding:5px 0 5px 4px;
+*position:relative;
+*top:-1px;
+	border:1px solid #b5b5b5;color:#999;line-height:22px;
+	color:#000;font-family:Arial;
+}
+.inp input.iText1{width:60px;height:16px;}
+
+.inp input.iTextNormal {border:1px solid #a4cbf7;background:#ebf5fb;color:#000;font-family:Arial}
+.inp input.iTextCur {border:1px solid #a4cbf7;background:#ebf5fb}
+label.placeholder {
+	cursor:text;
+}
+label.placeholder span {
+	color:#ccc;
+	font-size:12px;
+	line-height:18px;
+	opacity:1;
+	padding:5px 11px;
+	position:absolute;
+	z-index:5;
+	width:198px;
+}
+.m_logincon{margin-top:80px}
+.m_but,.m_but2{width:163px;height:41px;background:url(../image/loginbg.png) no-repeat left -479px;border:none;cursor:pointer;margin-left:80px}
+.m_but2{width:167px;height:38px;background-position:left -548px;text-align:center}
+.line p{padding-left:80px}
+.tip{margin-left:76px;height:32px;line-height:32px;_display:inline}
+.tip span.correct {
+	background-position:0 -171px;text-indent:24px
+}
+.tip span.normal1,.tip span.normal2 {
+	padding-left:24px;
+	background-position:0 -86px;
+}
+.tip span.error1,.tip span.error2 {
+	padding:0 0 0 24px;
+	
+	background:url(../image/regbg3.png) no-repeat 0 -122px;color:#fd463b
+}
+img.imgCode {
+	margin-left:8px;
+	vertical-align:middle;
+*vertical-align:top;
+	cursor:pointer;
+}
+.login_bot{width:365px;height:10px;background:url(../image/loginbg.png) no-repeat left -640px;float:left;overflow:hidden}
+ .inp input.iTextError {
+	border:1px solid #ffa29a;
+	background:#fff8ee
+}

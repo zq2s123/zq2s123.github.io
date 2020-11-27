@@ -1,0 +1,307 @@
+div, address, blockquote, iframe, ul, ol,
+h1, h2, h3, h4, h5, h6, p, pre, caption,  
+form, legend, fieldset, textarea{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-family: inherit;
+	font-size: 100%;
+}
+ul{
+    list-style:none;
+}
+body {
+    margin: 0px;
+	font-size:9pt;
+	word-break:break-all;
+}
+a:link {
+	color: #9e4b8d;
+	text-decoration: none;
+}
+a:visited {
+	color: #9e4b8d;
+	text-decoration: none;
+
+}
+a:hover {
+	color: #9e4b8d;
+	text-decoration: underline;
+}
+
+.bgcolor1 {
+	background-color: #FAF6F9;
+	color: #9e4b8d;
+}
+.bgcolor2 {
+	background-color: #F2DFEC;
+	color: #9e4b8d;
+}
+.bgcolor3 {
+	background-color: #deafd0;
+}
+.classborder {
+	font-size: 14px;
+	font-weight:bold;
+	color: #9e4b8d;
+	background-image: url(../image/title_bg.gif);
+	border: 1px solid #deafd0;
+	padding:3px 3px 3px 10px;
+}
+.title1 {
+	font-size: 14px;
+	font-weight:bold;
+	color: #9e4b8d;
+	background-image: url(../image/title_bg.gif);
+	border: 1px solid #deafd0;
+	padding:3px 3px 3px 10px;
+}
+td {
+	font-size: 9pt;
+	line-height: 18px;
+	color: #666666;
+}
+.left-border {
+	border-right: 1px solid #deafd0;
+	border-bottom: 1px solid #deafd0;
+	border-left: 1px solid #deafd0;
+	background-color:#FAF6F9;
+	color:#666666;
+	padding:10px;
+	margin-bottom:10px;
+	line-height:25px
+}
+
+.botton {
+	border:solid 1px #deafd0;
+	color:#9e4b8d;
+	height:30px;
+	width:200px;
+	background-color:#f2dfec;
+	background-image: url(../image/title_bg.gif);
+	cursor: hand;
+}
+
+/*Ö÷ÈÝÆ÷*/
+.main{
+	width:1200px;
+	margin:0 auto;
+	text-align:left;
+	background-color:#FFF;
+}
+.top{
+	background-color:#F8F8F8;
+	text-align:center;
+	padding:5px 10px;
+	border-bottom:1px solid #E6E6E6;
+}
+.top span{
+	float:right;	
+}
+
+.banner {
+	background-color: #bc5b9d;
+	background-image: url(../image/banner.jpg);
+	font-family: "ºÚÌå";
+	font-size: 28px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-style: italic;
+	text-align:center;
+	padding:20px 0px;
+	margin:0 0 10px 0;
+	height:110px;
+	
+}
+#pagebody {
+	width: 100%;
+	background-color:#FFFFFF;	
+}
+#bodyleft{
+	width:300px;
+	float:left;
+}
+#bodyright{
+	width:890px;
+	float:right;	
+}
+.title{
+	font-size:20px; 
+	line-height:30px;
+	font-family: ºÚÌå;
+	text-align:center;
+	padding:5px;
+}
+.content{
+	font-size:14px;
+	line-height:25px;
+	padding:10px;
+}
+.contenttop{
+	background-color:#F2DFEC;
+	padding:5px;
+	text-align:center
+}
+.contentbottom{
+	padding:10px;
+	text-align:center;
+}
+.copyright{
+	text-align:center;
+	height:50px;
+	line-height:25px;
+}
+
+hr{
+	height:1px;
+	border:1px solid #dddddd;
+}
+.daohang {margin:0 auto;overflow:hidden; list-style:none; height:48px;padding:0px 0px 0px 0px; background-image: url(../image/daohangbg.gif);}
+.daohang a{ font: 16px/48px 'Î¢ÈíÑÅºÚ'; COLOR: #ffffff; DISPLAY: block; text-decoration:none; }
+.daohang a:hover{ color:#ffffcc; repeat-x;}
+.daohang ul li{ float:left;text-align:center; width:118px; line-height:48px;  font-size:16px; }
+.daohang li :hover{background:#fe8011}
+.comanyname{
+	font-family: "ºÚÌå";
+	font-size: 28px;
+	line-height: 30px;
+	color: #9E4B8D;
+	font-weight: bold;
+	padding:20px 10px;
+	}
+.comanyname span{
+	float:right;
+	font-size:14px;
+	font-family: "ËÎÌå";
+}	
+.hiddiv{
+	float:left;
+	position:absolute;
+	Visibility:hidden;
+    Filter:revealTrans(duration=0.5, transition=19);
+	border: solid 1px #e8e8e8;
+	margin:5px 0px 0px 158px;
+	padding: 1px;
+	background-color:white;
+}
+
+
+.floater {
+	border-left-width: 0px;
+	border-right-width: 0px;
+	top: 0px;
+	position: fixed;
+	z-index: 199;
+	opacity: 1
+
+}
+.bartop {
+    font-size: 12px;
+	color: #585858;
+	background-color: #f9f9f9;
+	border-bottom: 1px #d4d4d4 solid;
+	height: 28px;
+	line-height: 28px;
+	width: 100%
+
+}
+.bartop .barleft a {
+	color: #585858
+}
+.bartop .barright a {
+	color: #585858
+}
+.bartop .barleft a:hover {
+	color: #ff0000;
+	text-decoration: underline
+}
+.bartop .barcenter {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px
+}
+.bartop .barleft {
+	width: 590px;
+	text-align: left;
+	float: left
+}
+.bartop .barright {
+	width: 400px;
+	text-align: right;
+	float: right;
+	overflow: hidden;
+	height: 28px;
+	overflow: hidden
+}
+
+.bartop .barright a:hover {
+	text-decoration: none;
+}
+.bartop .barleft .barcity {
+	margin-right: 10px
+}
+.bartop .barleft .barcity span {
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold
+}
+.bartop .barleft ul {
+	float: left
+}
+.bartop .barright ul {
+	float: right
+}
+
+
+.bartop .barleft ul.barcang {
+	background: url(http://www.ynshangji.com/skin/images/global/baricon.gif) 0 -54px no-repeat;
+	padding-left: 15px
+}
+.bartop .barleft ul.barwap {
+	background: url(http://www.ynshangji.com/skin/images/global/baricon.gif) 0 -36px no-repeat;
+	padding-left: 15px
+}
+.bartop .barleft ul.barpost {
+	background: url(http://www.ynshangji.com/skin/images/global/baricon.gif) 0 -18px no-repeat;
+	padding-left: 15px
+}
+.bartop .barleft ul.bardel {
+	background: url(http://www.ynshangji.com/skin/images/global/baricon.gif) 0 0 no-repeat;
+	padding-left: 15px
+}
+.bartop ul {
+	margin: 6px 8px 0 8px;
+	line-height: 18px;
+	display: inline;
+	position: relative;
+	z-index: 99999
+}
+.bartop div.choosetheme {
+	float: left
+}
+.bartop div#themelist {
+	float: right
+}
+.bartop ul li {
+	float: left;
+	width: 15px;
+	height: 18px;
+	display: block;
+	overflow: hidden
+}
+.bartop ul.line {
+	width: 2px;
+	height: 10px;
+	overflow: hidden;
+	background: #fff;
+	margin: 9px 0 0 0
+}
+.bartop ul.line u {
+	display: block;
+	width: 1px;
+	height: 18px;
+	overflow: hidden;
+	background: #d4d4d4
+}
